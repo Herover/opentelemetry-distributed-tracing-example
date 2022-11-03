@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+  app1:
+    build:
+      context: ./app1/
+    ports:
+      - 127.0.0.1:8080:8080
+
+  app2:
+    build:
+      context: ./app2/
+    ports:
+      - 127.0.0.1:8090:8080
