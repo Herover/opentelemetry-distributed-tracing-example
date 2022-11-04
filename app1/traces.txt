@@ -1,0 +1,306 @@
+{
+	"Name": "request",
+	"SpanContext": {
+		"TraceID": "9139c944052a8231b5911e5ab0dea027",
+		"SpanID": "f41e778d95351b73",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "0001-01-01T00:00:00Z",
+	"EndTime": "0001-01-01T00:00:00Z",
+	"Attributes": null,
+	"Events": [
+		{
+			"Name": "exception",
+			"Attributes": [
+				{
+					"Key": "exception.type",
+					"Value": {
+						"Type": "STRING",
+						"Value": "*url.Error"
+					}
+				},
+				{
+					"Key": "exception.message",
+					"Value": {
+						"Type": "STRING",
+						"Value": "Get \"http://app2:8080/id=asdf\": dial tcp: lookup app2: no such host"
+					}
+				}
+			],
+			"DroppedAttributeCount": 0,
+			"Time": "0001-01-01T00:00:00Z"
+		}
+	],
+	"Links": null,
+	"Status": {
+		"Code": "Error",
+		"Description": "Get \"http://app2:8080/id=asdf\": dial tcp: lookup app2: no such host"
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "environment",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo"
+			}
+		},
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "app1"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "v0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.11.1"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "app1",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
+{
+	"Name": "request",
+	"SpanContext": {
+		"TraceID": "d24f9d6d534f3367410943cbacc71c6f",
+		"SpanID": "e90ecb2443327c7b",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "0001-01-01T00:00:00Z",
+	"EndTime": "0001-01-01T00:00:00Z",
+	"Attributes": null,
+	"Events": [
+		{
+			"Name": "exception",
+			"Attributes": [
+				{
+					"Key": "exception.type",
+					"Value": {
+						"Type": "STRING",
+						"Value": "*url.Error"
+					}
+				},
+				{
+					"Key": "exception.message",
+					"Value": {
+						"Type": "STRING",
+						"Value": "Get \"http://app2:8080/id=asdf\": dial tcp: lookup app2: no such host"
+					}
+				}
+			],
+			"DroppedAttributeCount": 0,
+			"Time": "0001-01-01T00:00:00Z"
+		}
+	],
+	"Links": null,
+	"Status": {
+		"Code": "Error",
+		"Description": "Get \"http://app2:8080/id=asdf\": dial tcp: lookup app2: no such host"
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "environment",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo"
+			}
+		},
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "app1"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "v0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.11.1"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "app1",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
+{
+	"Name": "request",
+	"SpanContext": {
+		"TraceID": "13b8312e0163df38554a4cdaf390a51d",
+		"SpanID": "fd625accda468d63",
+		"TraceFlags": "01",
+		"TraceState": "",
+		"Remote": false
+	},
+	"Parent": {
+		"TraceID": "00000000000000000000000000000000",
+		"SpanID": "0000000000000000",
+		"TraceFlags": "00",
+		"TraceState": "",
+		"Remote": false
+	},
+	"SpanKind": 1,
+	"StartTime": "0001-01-01T00:00:00Z",
+	"EndTime": "0001-01-01T00:00:00Z",
+	"Attributes": null,
+	"Events": [
+		{
+			"Name": "exception",
+			"Attributes": [
+				{
+					"Key": "exception.type",
+					"Value": {
+						"Type": "STRING",
+						"Value": "*url.Error"
+					}
+				},
+				{
+					"Key": "exception.message",
+					"Value": {
+						"Type": "STRING",
+						"Value": "Get \"http://app2:8080/id=asdf\": dial tcp: lookup app2: no such host"
+					}
+				}
+			],
+			"DroppedAttributeCount": 0,
+			"Time": "0001-01-01T00:00:00Z"
+		}
+	],
+	"Links": null,
+	"Status": {
+		"Code": "Error",
+		"Description": "Get \"http://app2:8080/id=asdf\": dial tcp: lookup app2: no such host"
+	},
+	"DroppedAttributes": 0,
+	"DroppedEvents": 0,
+	"DroppedLinks": 0,
+	"ChildSpanCount": 0,
+	"Resource": [
+		{
+			"Key": "environment",
+			"Value": {
+				"Type": "STRING",
+				"Value": "demo"
+			}
+		},
+		{
+			"Key": "service.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "app1"
+			}
+		},
+		{
+			"Key": "service.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "v0.1.0"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.language",
+			"Value": {
+				"Type": "STRING",
+				"Value": "go"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.name",
+			"Value": {
+				"Type": "STRING",
+				"Value": "opentelemetry"
+			}
+		},
+		{
+			"Key": "telemetry.sdk.version",
+			"Value": {
+				"Type": "STRING",
+				"Value": "1.11.1"
+			}
+		}
+	],
+	"InstrumentationLibrary": {
+		"Name": "app1",
+		"Version": "",
+		"SchemaURL": ""
+	}
+}
